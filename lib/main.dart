@@ -5,7 +5,14 @@ void main() {
     MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
-        appBar: AppBar(backgroundColor: Colors.blueGrey[900]),
+        appBar: AppBar(
+          centerTitle: true,
+          backgroundColor: Colors.blueGrey[900],
+          title: const Text(
+            'I Am Rich',
+            style: TextStyle(color: Colors.white),
+          ),
+        ),
       ),
     ),
   );

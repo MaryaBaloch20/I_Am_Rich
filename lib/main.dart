@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
@@ -13,6 +14,7 @@ void main() {
             style: TextStyle(color: Colors.white),
           ),
         ),
+        body: Center(child: Image.asset("images/diamond.png")),
       ),
     ),
   );
